@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .first{
+    background-color: #005CFF;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 10px 5px;
+}
+
+header .first p{
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header .first p span:first-child{
+    background-color: #6220C1;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+header .second{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 16px 20px 16px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
